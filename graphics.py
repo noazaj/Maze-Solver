@@ -66,15 +66,3 @@ class Line:
             self.p1.x, self.p1.y, self.p2.x, self.p2.y, fill=fill_color, width=2
         )
         canvas.pack(fill=BOTH, expand=1)
-        
-
-def main():
-    win = Window(800, 800)
-    p1 = Point(300, 300)
-    p2 = Point(500, 500)
-    win.draw_line(Line(p1, p2))
-    win.wait_for_close()
-
-
-if __name__ == '__main__':
-    main()
