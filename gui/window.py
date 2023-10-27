@@ -25,7 +25,6 @@ class Window:
         self.running = False
         
     def redraw(self):
-        # self.root.update_idletasks()
         self.__root.update()
         
     def wait_for_close(self):
